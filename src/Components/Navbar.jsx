@@ -4,7 +4,7 @@ import { Resources } from "../assets/Resources";
 import { Link, useNavigate } from "react-router-dom";
 
 export default function Navbar({ setShowLogin }) {
-  const { cartItems } = useContext(StoreContext);
+  const { cartItems, selected, setSelected } = useContext(StoreContext);
 
   const navigate = useNavigate();
 
@@ -16,17 +16,14 @@ export default function Navbar({ setShowLogin }) {
     setSearch(evt.target.value);
   };
 
-  const [isSelected, setIsSelected] = useState("Home");
-
   const activeDecoration = "underline decoration-[#774000]";
-  const inActiveDecoration = "no-underline";
 
   return (
     <>
       <section className="flex flex-wrap justify-center">
         <section className="w-[90%] flex justify-between py-2">
           <div
-            onClick={() => setIsSelected("Home")}
+            onClick={() => setSelected("Home")}
             className="hover:scale-[1.05]"
           >
             <Link to="/" className="font-bold text-2xl leading-loose">
@@ -37,33 +34,33 @@ export default function Navbar({ setShowLogin }) {
           <nav className="w-[32%] hidden tablet:flex items-center">
             <ul className="text-center text-gray-500 flex grow justify-between">
               <li
-                onClick={() => setIsSelected("Home")}
+                onClick={() => setSelected("Home")}
                 className={`${
-                  isSelected === "Home" && activeDecoration
+                  selected === "Home" && activeDecoration
                 } hover:scale-[1.05]`}
               >
                 <Link to="/">Home</Link>
               </li>
               <li
-                onClick={() => setIsSelected("About")}
+                onClick={() => setSelected("About")}
                 className={`${
-                  isSelected === "About" && activeDecoration
+                  selected === "About" && activeDecoration
                 } hover:scale-[1.05]`}
               >
                 <a href="#footer">About</a>
               </li>
               <li
-                onClick={() => setIsSelected("Shop")}
+                onClick={() => setSelected("Shop")}
                 className={`${
-                  isSelected === "Shop" && activeDecoration
+                  selected === "Shop" && activeDecoration
                 } hover:scale-[1.05]`}
               >
                 <Link to="/">Shop</Link>
               </li>
               <li
-                onClick={() => setIsSelected("Contact")}
+                onClick={() => setSelected("Contact")}
                 className={`${
-                  isSelected === "Contact" && activeDecoration
+                  selected === "Contact" && activeDecoration
                 } hover:scale-[1.05]`}
               >
                 <a href="#footer">Contact-Us</a>
@@ -91,7 +88,7 @@ export default function Navbar({ setShowLogin }) {
               <button
                 onClick={() => {
                   navigate("/cart");
-                  setIsSelected("Cart");
+                  setSelected("Cart");
                 }}
                 className="relative hover:scale-[1.05]"
               >
@@ -131,33 +128,33 @@ export default function Navbar({ setShowLogin }) {
         >
           <ul className="flex flex-col items-center text-gray-500">
             <li
-              onClick={() => setIsSelected("Home")}
+              onClick={() => setSelected("Home")}
               className={`${
-                isSelected === "Home" && activeDecoration
+                selected === "Home" && activeDecoration
               } mb-7 hover:scale-[1.05]`}
             >
               <Link to="/">Home</Link>
             </li>
             <li
-              onClick={() => setIsSelected("About")}
+              onClick={() => setSelected("About")}
               className={`${
-                isSelected === "About" && activeDecoration
+                selected === "About" && activeDecoration
               } mb-7 hover:scale-[1.05]`}
             >
               <a href="#footer">About</a>
             </li>
             <li
-              onClick={() => setIsSelected("Shop")}
+              onClick={() => setSelected("Shop")}
               className={`${
-                isSelected === "Shop" && activeDecoration
+                selected === "Shop" && activeDecoration
               } mb-7 hover:scale-[1.05]`}
             >
               <Link to="/">Shop</Link>
             </li>
             <li
-              onClick={() => setIsSelected("Contact")}
+              onClick={() => setSelected("Contact")}
               className={`${
-                isSelected === "Contact" && activeDecoration
+                selected === "Contact" && activeDecoration
               } mb-7 hover:scale-[1.05]`}
             >
               <a href="#footer">Contact-Us</a>
@@ -181,7 +178,7 @@ export default function Navbar({ setShowLogin }) {
               <button
                 onClick={() => {
                   navigate("/cart");
-                  setIsSelected("Cart");
+                  setSelected("Cart");
                 }}
                 className="relative hover:scale-[1.05]"
               >

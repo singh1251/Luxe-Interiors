@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
 import { Resources } from "../assets/Resources";
+import { useContext } from "react";
+import { StoreContext } from "../Contexts/StoreContext";
 
 export default function Categories() {
+  const { setSelected } = useContext(StoreContext);
+
   return (
     <section className="flex flex-wrap justify-center">
       <section className="w-[90%] flex flex-wrap mb-20">
@@ -13,7 +17,10 @@ export default function Categories() {
         </div>
 
         <div className="w-full mb-20 flex flex-wrap tablet:justify-between">
-          <div className="tablet:w-[30%] mb-10 tablet:mb-0">
+          <div
+            onClick={() => setSelected("Categories")}
+            className="tablet:w-[30%] mb-10 tablet:mb-0"
+          >
             <Link to="/sleeperSofaCollection">
               <img
                 src={Resources.sleeperSofa}
@@ -24,7 +31,10 @@ export default function Categories() {
             </Link>
           </div>
 
-          <div className="tablet:w-[30%] mb-10 tablet:mb-0">
+          <div
+            onClick={() => setSelected("Categories")}
+            className="tablet:w-[30%] mb-10 tablet:mb-0"
+          >
             <Link to="/loveseatCollection">
               <img
                 src={Resources.loveseat}
@@ -35,7 +45,10 @@ export default function Categories() {
             </Link>
           </div>
 
-          <div className="tablet:w-[30%] mb-10 tablet:mb-0">
+          <div
+            onClick={() => setSelected("Categories")}
+            className="tablet:w-[30%] mb-10 tablet:mb-0"
+          >
             <Link to="/daybedCollection">
               <img
                 src={Resources.daybed}
@@ -47,7 +60,10 @@ export default function Categories() {
           </div>
         </div>
 
-        <div className="w-full flex flex-wrap tablet:justify-between">
+        <div
+          onClick={() => setSelected("Categories")}
+          className="w-full flex flex-wrap tablet:justify-between"
+        >
           <div className="tablet:w-[30%] mb-10 tablet:mb-0">
             <Link to="/sectionalCollection">
               <img
@@ -59,7 +75,10 @@ export default function Categories() {
             </Link>
           </div>
 
-          <div className="tablet:w-[30%] mb-10 tablet:mb-0">
+          <div
+            onClick={() => setSelected("Categories")}
+            className="tablet:w-[30%] mb-10 tablet:mb-0"
+          >
             <Link to="/officeSofaCollection">
               <img
                 src={Resources.officeSofa}
@@ -70,7 +89,10 @@ export default function Categories() {
             </Link>
           </div>
 
-          <div className="tablet:w-[30%] mb-10 tablet:mb-0">
+          <div
+            onClick={() => setSelected("Categories")}
+            className="tablet:w-[30%] mb-10 tablet:mb-0"
+          >
             <Link to="/chairCollection">
               <img
                 src={Resources.chair}
