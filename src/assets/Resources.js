@@ -20,6 +20,8 @@ import upArrow from "./Icons/upArrow.svg";
 import heartIcon from "./Icons/heart.svg";
 import heartFilledIcon from "./Icons/heartFilledIcon.svg";
 import starIcon from "./Icons/starIcon.svg";
+import listIcon from "./Icons/listIcon.svg";
+import shoppingCartFillIcon from "./Icons/shoppingCartFill_Icon.svg";
 
 //related products images
 import relatedProduct1 from "./RelatedProducts/relatedProducts-1.jpg";
@@ -397,6 +399,8 @@ export const Resources = {
   heartIcon,
   heartFilledIcon,
   starIcon,
+  listIcon,
+  shoppingCartFillIcon,
 
   homeImg,
   business,
