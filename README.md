@@ -20,18 +20,10 @@ This project uses Vite for a fast development environment with Hot Module Replac
 
 ## Screenshots
 
-![Home Page]
-![homePage1](https://github.com/user-attachments/assets/0fbeda3c-9275-4203-a55f-97cf7e0a7b65)
-
-![Product Collection Page]
-![productCollection1](https://github.com/user-attachments/assets/539230d9-9f53-4a43-a419-f1c6adca406f)
-
-![Product Details Page]
-![productDetail1](https://github.com/user-attachments/assets/9d24b38e-571a-4261-aef6-e0b6b60caafc)
-
-![Cart Page]
-![cart1](https://github.com/user-attachments/assets/f5d6adb1-15b2-47ab-8b02-78cc890a0b5e)
-
+![Home Page](screenshots/home.png)
+![Product Collection Page](screenshots/product-collection.png)
+![Product Details Page](screenshots/product-details.png)
+![Cart Page](screenshots/cart.png)
 
 ## Different Pages
 
@@ -77,8 +69,8 @@ This project uses Vite for a fast development environment with Hot Module Replac
 
 1. Clone the repository:
 
-   - git clone https://github.com/singh1251/Luxe-Interiors
-   - cd luxeinteriors
+   - git clone https://github.com/yourusername/luxeinteriors.git
+     cd luxeinteriors
 
 2. Install the dependencies:
 
