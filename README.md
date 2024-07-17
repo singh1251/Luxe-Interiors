@@ -37,6 +37,16 @@ Featured products
 ![Home Page - View 5](Screenshots/homePage5.png)
 Footer
 
+### Login
+
+![Login window](Screenshots/loginPopup1.png)
+Login PopUp window.
+
+### Register
+
+![Register window](Screenshots/registerPopup1.png)
+Register PopUp window.
+
 ### Product Collection Page
 
 ![Product Collection Page](Screenshots/productCollection1.png)
