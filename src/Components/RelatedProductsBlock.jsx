@@ -11,13 +11,13 @@ export default function RelatedProductsBlock() {
         Things to keep an eye on
       </p>
 
-      <section className="w-[90%] rounded-2xl flex flex-wrap tablet:flex-nowrap tablet:justify-between mb-20">
+      <section className="w-[90%] rounded-2xl flex flex-wrap sm:justify-between mb-20">
         {Products.map((product) => {
           if (product.id >= 37) {
             return (
               <div
                 key={product.id}
-                className="w-full tablet:w-[23%] flex flex-wrap"
+                className="w-full sm:w-[45%] tablet:w-[23%] flex flex-wrap"
               >
                 <ProductBlock relatedProduct={product} />
               </div>

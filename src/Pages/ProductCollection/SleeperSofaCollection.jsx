@@ -31,7 +31,7 @@ export default function sleeperSofaCollection() {
             handleCategories={handleCategories}
           />
 
-          <section className="w-full tablet:w-[75%] flex flex-wrap">
+          <section className="w-full tablet:w-[75%] flex flex-wrap justify-between">
             {SleeperSofa.map((sSofa) => {
               if (
                 Object.keys(categories).every((c) => !categories[c]) ||

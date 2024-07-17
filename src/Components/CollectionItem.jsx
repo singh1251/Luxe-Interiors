@@ -34,7 +34,7 @@ export default function Collectionproduct({ product }) {
   }
 
   return (
-    <div className="w-full tablet:w-[30%] tablet:mr-5 mb-10">
+    <div className="w-full sm:w-[45%] tablet:w-[30%] mb-10">
       <div className="w-full relative mb-4">
         <Link to={path}>
           <img
