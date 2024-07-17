@@ -52,11 +52,6 @@ One of the product details page with product description.
 ![Cart Page](Screenshots/cart1.png)
 Cart page showing selected products and total cart value.
 
-### Cart Page
-
-![Cart Page](Screenshots/cart1.png)
-_Caption: Screenshot of the cart page showing selected products and total cart value._
-
 ## Different Pages
 
 - **Home Page**: Displays the different categories of products along with some featured products.
