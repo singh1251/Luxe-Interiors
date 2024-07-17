@@ -20,6 +20,16 @@ This project uses Vite for a fast development environment with Hot Module Replac
 
 ## Screenshots
 
+### Login
+
+![Login window](Screenshots/loginPopup1.png)
+Login PopUp window.
+
+### Register
+
+![Register window](Screenshots/registerPopup1.png)
+Register PopUp window.
+
 ### Home Page
 
 ![Home Page - View 1](Screenshots/homePage1.png)
@@ -36,16 +46,6 @@ Featured products
 
 ![Home Page - View 5](Screenshots/homePage5.png)
 Footer
-
-### Login
-
-![Login window](Screenshots/loginPopup1.png)
-Login PopUp window.
-
-### Register
-
-![Register window](Screenshots/registerPopup1.png)
-Register PopUp window.
 
 ### Product Collection Page
 
