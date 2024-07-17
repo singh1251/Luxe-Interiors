@@ -23,29 +23,34 @@ This project uses Vite for a fast development environment with Hot Module Replac
 ### Home Page
 
 ![Home Page - View 1](Screenshots/homePage1.png)
-_Caption: Screenshot of the homepage showcasing the header and navigation bar ._
+Header along with the navigation bar
 
 ![Home Page - View 2](Screenshots/homePage2.png)
-_Caption: Screenshot of the homepage highlighting the categories section._
+Categories section
 
 ![Home Page - View 3](Screenshots/homePage3.png)
-_Caption: Screenshot of the homepage highlighting the business-solutions section._
+Business-solutions section
 
 ![Home Page - View 4](Screenshots/homePage4.png)
-_Caption: Screenshot of the homepage highlighting the featured products._
+Featured products
 
 ![Home Page - View 5](Screenshots/homePage5.png)
-_Caption: Screenshot of the homepage highlighting the footer._
+Footer
 
 ### Product Collection Page
 
 ![Product Collection Page](Screenshots/productCollection1.png)
-_Caption: Screenshot of one of the product collection page with filters._
+One of the product collection page with filters.
 
 ### Product Details Page
 
-![Product Details Page](screenshots/productDetail1.png)
-_Caption: Screenshot of one of the product detail page with description._
+![Product Details Page](Screenshots/productDetail1.png)
+One of the product details page with product description.
+
+### Cart Page
+
+![Cart Page](Screenshots/cart1.png)
+Cart page showing selected products and total cart value.
 
 ### Cart Page
 
