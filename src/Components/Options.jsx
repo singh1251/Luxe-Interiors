@@ -1,6 +1,5 @@
 import { useState } from "react";
 import AddToCart from "./AddToCart";
-import { set } from "react-hook-form";
 
 export default function Options({
   product,

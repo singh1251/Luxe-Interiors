@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Resources } from "../../assets/Resources";
 
 import LoginPopUpForm from "./LoginPopUpForm";
-import { Link } from "react-router-dom";
 
 export default function LoginPage({ showLogin, setShowLogin }) {
   const [isActive, setIsActive] = useState({ email: true, phone: false });

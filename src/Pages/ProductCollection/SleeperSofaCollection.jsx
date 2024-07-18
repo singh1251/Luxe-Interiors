@@ -45,7 +45,3 @@ export default function sleeperSofaCollection() {
     </>
   );
 }
-
-// (
-//   <CollectionItem key={sSofa.id} product={sSofa} />
-// )
