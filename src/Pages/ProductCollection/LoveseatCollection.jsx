@@ -31,7 +31,7 @@ export default function sleeperSofaCollection() {
             handleCategories={handleCategories}
           />
 
-          <section className="w-full tablet:w-[75%] flex flex-wrap justify-between">
+          <section className="w-full tablet:w-[75%] flex flex-wrap gap-x-11 tablet:gap-x-7">
             {Loveseat.map((lSeat) => {
               if (
                 Object.keys(categories).every((c) => !categories[c]) ||
