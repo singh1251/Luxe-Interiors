@@ -5,7 +5,7 @@ export default function LoginForm({ isActive, currState, setCurrState }) {
   const { errors } = formState;
 
   const formSubmit = (formData) => {
-    console.log("submitted", formData);
+    console.log("Form Submitted", formData);
   };
 
   const validtionOptions = {

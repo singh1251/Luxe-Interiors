@@ -13,7 +13,6 @@ export default function LoginPage({ showLogin, setShowLogin }) {
   const inActiveState = "text-sm text-gray-400 px-2 py-1 mr-4";
 
   const handleClickEmailPhone = (evt) => {
-    console.log("function called");
     if (evt.target.textContent === "Email") {
       setIsActive({ email: true, phone: false });
     } else {
