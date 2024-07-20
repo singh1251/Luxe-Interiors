@@ -4,7 +4,7 @@ LuxeInteriors is a modern, responsive, and fully-functional e-commerce website f
 
 ## Live Demo
 
-You can view the live demo of the app at: [app-url](https://luxe-interiors.vercel.app/)
+You can view the live demo of the app at: [https://luxe-interiors.vercel.app/](https://luxe-interiors.vercel.app/)
 
 ## Technologies Used
 
