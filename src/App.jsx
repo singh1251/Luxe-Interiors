@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar";
 import RelatedProductsBlock from "./Components/RelatedProductsBlock";
 import Footer from "./Components/Footer";
 import LoginPopUp from "./Pages/Login/LoginPopUp";
+import Spinner from "./Components/Spinner";
 
 // Lazy load components
 const Cart = lazy(() => import("./Pages/CartPage/Cart"));
@@ -131,7 +132,7 @@ function App() {
 
       <ScrollToTop />
       <Navbar setShowLogin={setShowLogin} />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Spinner />}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="cart" element={<Cart setShowLogin={setShowLogin} />} />
