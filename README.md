@@ -2,6 +2,10 @@
 
 LuxeInteriors is a modern, responsive, and fully-functional e-commerce website for purchasing furniture online.
 
+## Live Demo
+
+You can view the live demo of the app at: [app-url](https://luxe-interiors.vercel.app/)
+
 ## Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
