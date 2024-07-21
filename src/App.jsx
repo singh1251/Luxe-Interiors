@@ -127,7 +127,10 @@ function App() {
   return (
     <>
       {showLogin && (
-        <LoginPopUp showLogin={showLogin} setShowLogin={setShowLogin} />
+        <>
+          <ScrollToTop />
+          <LoginPopUp showLogin={showLogin} setShowLogin={setShowLogin} />
+        </>
       )}
 
       <ScrollToTop />

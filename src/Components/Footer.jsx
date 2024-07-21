@@ -1,10 +1,13 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 
 import { Resources } from "../assets/Resources";
+import { StoreContext } from "../Contexts/StoreContext";
 
 export default function Footer() {
+  const { setSelected } = useContext(StoreContext);
+
   const [isSubscribed, setIsSubscribed] = useState(false);
 
   const { register, handleSubmit, formState } = useForm({ mode: "onChange" });
@@ -92,22 +95,52 @@ export default function Footer() {
             <p className="font-bold text-lg">Categories</p>
             <ul>
               <li className="text-gray-500 my-4">
-                <Link to="/chairCollection">Chairs</Link>
+                <Link
+                  to="/chairCollection"
+                  onClick={() => setSelected("Chair Collection")}
+                >
+                  Chairs
+                </Link>
               </li>
               <li className="text-gray-500 my-4">
-                <Link to="/loveseatCollection">Loveseats</Link>
+                <Link
+                  to="/loveseatCollection"
+                  onClick={() => setSelected("Loveseat Collection")}
+                >
+                  Loveseats
+                </Link>
               </li>
               <li className="text-gray-500 my-4">
-                <Link to="/daybedCollection">Daybeds</Link>
+                <Link
+                  to="/daybedCollection"
+                  onClick={() => setSelected("Daybed Collection")}
+                >
+                  Daybeds
+                </Link>
               </li>
               <li className="text-gray-500 mt-4 mb-2">
-                <Link to="/sectionalCollection">Sectionals</Link>
+                <Link
+                  to="/sectionalCollection"
+                  onClick={() => setSelected("Sectional Collection")}
+                >
+                  Sectionals
+                </Link>
               </li>
               <li className="text-gray-500 mt-4 mb-2">
-                <Link to="/officeSofaCollection">Office Sofas</Link>
+                <Link
+                  to="/officeSofaCollection"
+                  onClick={() => setSelected("Office Sofa Collection")}
+                >
+                  Office Sofas
+                </Link>
               </li>
               <li className="text-gray-500 mt-4 mb-2">
-                <Link to="sleeperSofaCollection">Sleeper Sofas</Link>
+                <Link
+                  to="sleeperSofaCollection"
+                  onClick={() => setSelected("Sleeper Sofa Collection")}
+                >
+                  Sleeper Sofas
+                </Link>
               </li>
             </ul>
           </div>
