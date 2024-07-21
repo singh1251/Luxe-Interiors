@@ -8,7 +8,7 @@ export default function Categories() {
 
   return (
     <section className="flex flex-wrap justify-center">
-      <section className="w-[90%] flex flex-wrap mb-20">
+      <section className="w-[90%] flex flex-wrap">
         <div className="mb-10 w-full">
           <p className="text-5xl text-center font-bold mb-3">Categories</p>
           <p className="text-gray-500 text-center">
@@ -16,7 +16,7 @@ export default function Categories() {
           </p>
         </div>
 
-        <div className="w-full mb-20 flex flex-wrap sm:justify-between tablet:justify-between">
+        <div className="w-full flex flex-wrap sm:justify-between tablet:justify-between">
           <div
             onClick={() => setSelected("Categories")}
             className="sm:w-[45%] tablet:w-[30%] mb-10"

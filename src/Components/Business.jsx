@@ -2,7 +2,7 @@ import { Resources } from "../assets/Resources";
 
 export default function Business() {
   return (
-    <section className="my-20 flex flex-wrap">
+    <section className="my-24 flex flex-wrap">
       <div className="w-full tablet:w-[55%]">
         <img
           src={Resources.business}
