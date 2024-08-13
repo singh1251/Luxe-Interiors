@@ -9,8 +9,9 @@ You can view the live demo of the app at: [LuxeInteriors](https://luxe-interiors
 ## Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
-- **Context API**: A React feature for managing state globally.
-- **React Hook Form**: A library for handling form validation and submission.
+  - **Context API**: A React feature for managing state globally.
+  - **React Hook Form**: A library for handling form validation and submission.
+  - **React Router DOM**: A library for handaling routing.
 - **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
 - **Git**: A version control system for tracking changes in the source code.
 - **GitHub**: A platform for hosting and collaborating on Git repositories.
